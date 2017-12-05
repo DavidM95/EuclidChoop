@@ -106,13 +106,13 @@ public class Choop {
 		}
 		
 		String besked = "";
-		boolean isTrueOrFalse;
+		boolean isSolution;
 		if(x % R.get(R.size()-2) == 0) {
-			isTrueOrFalse = true;
-			besked = isTrueOrFalse + " da " + R.get(R.size()-2) + " går op i " + x;
+			isSolution = true;
+			besked = isSolution + " da " + R.get(R.size()-2) + " går op i " + x;
 		} else {
-			isTrueOrFalse = false;
-			besked = isTrueOrFalse + " da " + R.get(R.size()-2) + " IKKE går op i " + x;
+			isSolution = false;
+			besked = isSolution + " da " + R.get(R.size()-2) + " IKKE går op i " + x;
 		}
 
 		System.out.println("Q_k: " + Q);
